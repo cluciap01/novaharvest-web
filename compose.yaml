@@ -3,3 +3,7 @@ services:
     build: ./web
     ports:
       - "8080:80"
+    depends_on:
+      - backend
+  backend:
+    build: ./backend
