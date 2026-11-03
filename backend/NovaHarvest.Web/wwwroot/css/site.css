@@ -13,7 +13,22 @@ header {
 }
 
 header img {
-    width: 80px;
+    width: 100px;
+    height: auto;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
 
 main {
@@ -22,5 +37,11 @@ main {
     padding: 25px;
     background-color: white;
     border-radius: 10px;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #ddd;
+    padding: 20px;
     text-align: center;
 }
