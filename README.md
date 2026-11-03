@@ -206,3 +206,4 @@ Por eso, las horas podrían no coincidir si el contenedor utiliza UTC y el orden
 En mi caso, tengo que comparar las dos horas para comprobar si existe alguna diferencia.  
 Si no coinciden, no significa que la aplicación esté funcionando mal, sino que los entornos pueden tener zonas horarias diferentes.  
 Para conseguir que coincidan, se puede configurar la zona horaria del contenedor.
+
