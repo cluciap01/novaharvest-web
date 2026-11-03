@@ -17,7 +17,7 @@ app.MapGet("/", () =>
         </head>
         <body>
             <header>
-                <img src="/img/logo.png" alt="Logo NovaHarvest">
+                <img src="/img/logo.jpg" alt="Logo NovaHarvest">
                 <h1>NovaHarvest</h1>
             </header>
 

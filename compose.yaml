@@ -7,4 +7,4 @@ services:
       - backend
 
   backend:
-    build: ./backend/NovaHarvest.Web
+    build: ./backend
